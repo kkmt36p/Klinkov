@@ -37,16 +37,17 @@
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(189, 12);
+            this.panel1.Location = new System.Drawing.Point(201, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(264, 157);
+            this.panel1.Size = new System.Drawing.Size(232, 125);
             this.panel1.TabIndex = 0;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 187);
+            this.label1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label1.Location = new System.Drawing.Point(12, 140);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(615, 162);
+            this.label1.Size = new System.Drawing.Size(615, 209);
             this.label1.TabIndex = 0;
             this.label1.Text = resources.GetString("label1.Text");
             // 

@@ -25,10 +25,6 @@ namespace Устройства_ЭВМ
             panel1.Size = Библиотека_функций.Форма.АвтоКорректор(panel1.Size, this.Size, Старый_размер_формы);
             label1.Location = Библиотека_функций.Форма.АвтоКорректор(label1.Location, this.Size, Старый_размер_формы);
             label1.Size = Библиотека_функций.Форма.АвтоКорректор(label1.Size, this.Size, Старый_размер_формы);
-            /*panel1.Location = new Point(this.Size.Width / 3, 10);
-            panel1.Size = new Size(this.Size.Width / 3, this.Size.Height / 30 * 10);
-            label1.Location = new Point(this.Size.Width / 100, panel1.Location.Y + panel1.Size.Height + 10);
-            label1.Size = new Size(this.Size.Width - label1.Location.X * 2 - 10, this.Size.Height - label1.Location.Y - 10);*/
             Библиотека_функций.Текст.АвтоРазмерТекста(ref label1);
             Старый_размер_формы = this.Size;
         }

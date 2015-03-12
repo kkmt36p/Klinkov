@@ -136,9 +136,9 @@
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(8, 225);
+            this.label4.Location = new System.Drawing.Point(8, 202);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(536, 112);
+            this.label4.Size = new System.Drawing.Size(536, 135);
             this.label4.TabIndex = 0;
             this.label4.Text = "Принтер - печатающее устройство, предназначенное для вывода текстовой и графическ" +
     "ой информации на бумагу, то есть   для получения документированной копии.";
