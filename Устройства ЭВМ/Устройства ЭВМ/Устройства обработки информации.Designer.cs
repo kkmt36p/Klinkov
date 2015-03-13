@@ -69,21 +69,18 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Location = new System.Drawing.Point(353, 6);
+            this.label1.Location = new System.Drawing.Point(263, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(396, 226);
+            this.label1.Size = new System.Drawing.Size(486, 226);
             this.label1.TabIndex = 1;
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(8, 6);
+            this.panel1.Location = new System.Drawing.Point(25, 31);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(339, 218);
+            this.panel1.Size = new System.Drawing.Size(211, 154);
             this.panel1.TabIndex = 0;
             // 
             // tabPage2
@@ -100,21 +97,18 @@
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.Location = new System.Drawing.Point(386, 6);
+            this.label2.Location = new System.Drawing.Point(281, 3);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(356, 221);
+            this.label2.Size = new System.Drawing.Size(461, 224);
             this.label2.TabIndex = 2;
             // 
             // panel2
             // 
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Location = new System.Drawing.Point(8, 6);
+            this.panel2.Location = new System.Drawing.Point(3, 56);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(372, 226);
+            this.panel2.Size = new System.Drawing.Size(272, 121);
             this.panel2.TabIndex = 0;
             // 
             // Устройства_обработки_информации

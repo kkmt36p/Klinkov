@@ -6,9 +6,9 @@ namespace Библиотека_функций
 {
     public class Текст
     {
-        public static void АвтоРазмерТекста(ref Label lab)
+        public static void АвтоРазмерТекста(ref Label lab, double conf = 3)
         {
-            float num = ((float)(Math.Sqrt((lab.Size.Height * lab.Size.Width) / (lab.Text.Length * 3))));
+            float num = ((float)(Math.Sqrt((lab.Size.Height * lab.Size.Width) / (lab.Text.Length * conf))));
             lab.Font = new Font(lab.Font.Name, num > 0 ? num : (float)0.00001, lab.Font.Style, lab.Font.Unit);
         }
     }
